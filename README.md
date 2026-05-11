@@ -1,2 +1,3 @@
-# Parcial-1
-repositorio del primer parcial de Informática General
+Nahiara Aylen Sosto
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
