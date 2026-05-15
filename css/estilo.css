@@ -57,14 +57,16 @@ h2 , h3 , h4 , h5 {
 /*Imagen y Epígrafe*/
 figure { 
     margin-top: 10%;
+    display: flex;
 }
+
 figcaption {
-    margin-top: 2%;
-    text-decoration: wavy;
+    margin-left: 1%;
+    margin-top: 10%;
+
 }
 
 .imagen-obra {
-    display: inline-block;
     margin-right: 5%;
 }
 
@@ -73,7 +75,7 @@ figcaption {
 }
 
 /*Extra*/
-p { 
+p , ol { 
     font-size: 1rem;
 }
 
@@ -101,27 +103,6 @@ div {
     text-align: center;
     padding: 2%;
     background-color: rgb(60, 80, 167);
-    color: rgb(1, 1, 17);
-}
-
-#cita {
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    margin-left: 10%;
-    width: 80%;
-    text-align: center;
-    padding: 2%;
-}
-
-#obras { 
-    margin: 0%;
-    padding: 0%;
-    margin-left: 5%;
-    width: 90%;
-    list-style: none;
-    text-align: center;
-    padding: 2%;
-    background-color: rgba(60, 103, 167, 0.71);
     color: rgb(1, 1, 17);
 }
 
@@ -170,7 +151,7 @@ footer {
     width: 90%;
     text-align: center;
     padding: 2%;
-    background-color: rgba(98, 176, 248, 0.86);
+    background-image: linear-gradient(rgba(7, 7, 190, 0.904), rgba(33, 80, 233, 0.849), rgba(85, 173, 255, 0));
     color: rgb(1, 1, 17);
 }
 
