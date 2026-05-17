@@ -54,24 +54,19 @@ h2 , h3 , h4 , h5 {
     background-image: linear-gradient(rgba(7, 7, 190, 0.904), rgba(33, 80, 233, 0.849), rgba(85, 173, 255, 0));
 }
 
-/*Imagen y Epígrafe*/
-figure { 
-    margin-top: 10%;
+/*Imagenes*/
+.obras , #imagenobras {
     display: flex;
 }
 
-figcaption {
+.obras figcaption , #imagenobras figcaption {
+    align-items: center;
+    margin-top: 15%;
     margin-left: 1%;
-    margin-top: 10%;
-
 }
 
-.imagen-obra {
-    margin-right: 5%;
-}
-
-.imagen-obra:last-child {
-    margin-right: 0;
+figure {
+    margin-top: 3%;
 }
 
 /*Extra*/
@@ -110,6 +105,29 @@ div {
     margin-top: 10%;
 }
 
+section iframe {
+    border-color: rgb(21, 33, 139);
+}
+
+/*Lista de obras*/
+ol li a { 
+    color: rgb(21, 33, 139);
+    text-decoration: none;
+}
+
+ol li a:visited {
+    color: rgb(1, 1, 17);
+}
+ol li a:hover {
+    color: rgb(87, 127, 236);
+    text-decoration: underline;
+}
+
+ol li a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
 /*Navegador*/
 nav { 
     font-size: 2rem;
@@ -133,6 +151,9 @@ nav li a {
     text-decoration: none;
 }
 
+nav li a:visited {
+    color: rgb(1, 1, 17);
+}
 nav li a:hover {
     color: rgb(87, 127, 236);
     text-decoration: underline;
@@ -146,7 +167,7 @@ nav li a:active {
 /*Footer*/
 footer { 
     margin-top: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 5%;
     width: 90%;
     text-align: center;
@@ -155,17 +176,17 @@ footer {
     color: rgb(1, 1, 17);
 }
 
-footer address a { 
-    color: rgb(204, 209, 255);
+footer address a {
+    color: rgb(1, 1, 17);
     text-decoration: none;
 }
 
 footer address a:hover {
-    color: rgb(4, 19, 151);
+    color: rgb(204, 209, 255);
     text-decoration: underline;
 }
 
 footer address a:active {
-    color: blue;
+    color: rgb(4, 19, 151);
     text-decoration: underline;
 }
